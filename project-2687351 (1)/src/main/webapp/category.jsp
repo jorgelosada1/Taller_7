@@ -27,39 +27,24 @@
     <section>
 
         <main class="form-signin w-100 m-auto">
-            <form action="" method="post">
+            <form action="registerCategory" method="post">
 
                 <img class="mb-4" src="./img/gatito.jpg" alt="MY APP " width="100">
 
 
 
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="name" name="name" placeholder=" Ingrese el nombre de su producto" required autofocus pattern="[A-Za-z ]{2,40}">
-                    <label  for="name" >name: </label>
-                </div>
 
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="value" name="value" placeholder=" Ingrese el precio de su producto" required autofocus pattern="[A-Za-z ]{2,40}">
-                    <label  for="value" >value: </label>
+                    <input type="text" class="form-control" id="category_name" name="category_name" placeholder=" Ingrese el nombre de su categoria" required autofocus pattern="[A-Za-z ]{2,40}">
+                    <label  for="category_name" >Nombre de la categoria </label>
 
                 </div>
 
-                <div class="dropdown show">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown link
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">jeans</a>
-                        <a class="dropdown-item" href="#">camisas</a>
-                        <a class="dropdown-item" href="#">accesorios</a>
-                        <a class="dropdown-item" href="#">tennis</a>
-                    </div>
-                </div>
 
 
 
-                <button type="button" class="btn btn-outline-dark">Enviar</button>
+
+                <button type="submit" class="btn btn-outline-dark">Enviar</button>
 
                 <button  type="button" class="btn btn-outline-dark"><a href="index.jsp"> Regresar</a></button>
 

@@ -27,7 +27,7 @@
     <section>
 
         <main class="form-signin w-100 m-auto">
-            <form action="" method="post">
+            <form action="register_User" method="post">
 
                 <img class="mb-4" src="./img/gatito.jpg" alt="MY APP " width="100">
 
@@ -45,18 +45,18 @@
                 </div>
 
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="email" name="user_email" placeholder=" Ingrese su correo" required autofocus pattern="[A-Za-z ]{2,40}">
+                    <input type="text" class="form-control" id="email" name="user_email" placeholder=" Ingrese su correo" required autofocus >
                     <label  for="email" >Correo: </label>
 
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="password" class="form-control" id="Password" name="user_password" placeholder="Ingrese su contraseña" required pattern="^(?=.*\d)(?=.*[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$">
+                    <input type="password" class="form-control" id="Password" name="user_password" placeholder="Ingrese su contraseña" required >
                     <label for="Password">Contraseña: </label>
                 </div>
 
 
 
-                <button type="button" class="btn btn-outline-dark">Enviar</button>
+                <button type="submit" class="btn btn-outline-dark">Enviar</button>
 
                 <button  type="button" class="btn btn-outline-dark"><a href="index.jsp"> Regresar</a></button>
 
